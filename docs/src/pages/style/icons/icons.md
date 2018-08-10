@@ -107,3 +107,9 @@ Optionally, you can set the icon color using one of the theme color properties: 
 ### [Font Awesome](https://fontawesome.com/icons)
 
 {{"demo": "pages/style/icons/FontAwesome.js", "hideEditButton": true}}
+
+
+## Which approach to use?
+
+Both approaches work fine, however there are some subtle differences. Specially in terms of performance and rendering quality.
+Whenever possible we suggest to use SVG it renders faster and better and allows code splitting. For more details you can check why Github changed from font icons to SVG icons [here](https://blog.github.com/2016-02-22-delivering-octicons-with-svg/).
